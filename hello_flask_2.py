@@ -6,7 +6,7 @@ app=Flask(__name__)
 def hello():
 	return 'Hello world from Flask!'
 
-@app.route('/user/<user_id>')	#za URL putanju '/user/<user_id>' pozovi funkciju getUser i prosledi joj string 'user_id'
+@app.route('/user/<user_id>')   #za URL putanju '/user/<user_id>' pozovi funkciju getUser i prosledi joj string 'user_id'
 def getUser(user_id):
 	return 'I am user: %s.' % user_id
 	
