@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask		#iz modula flask uvezi klasu Flask
 
 app=Flask(__name__)
 
