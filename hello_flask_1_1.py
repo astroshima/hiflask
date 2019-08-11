@@ -9,9 +9,9 @@ def hello():
 print('Naziv aktivnog modula je:', __name__)
 
 if __name__=='__main__':    # ako je ovaj program startovan komandom python3
-    app.run()               # pokreni server
+    app.run()               # pokreni veb server i aplikaciju
 
 """
-Podešavanje promenljive okruženja i startovanje servera iz komandne linije:
+Podešavanje promenljive okruženja i startovanje veb servera i aplikacije iz komandne linije:
 $ env FLASK_APP=hello_flask_1_1.py flask run
 """
