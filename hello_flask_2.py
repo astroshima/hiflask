@@ -9,5 +9,6 @@ def hello():
 @app.route('/<user_id>')    #za URL putanju '/<user_id>' pozovi funkciju getUser i prosledi joj string 'user_id'
 def getUser(user_id):
 	return 'I am user: %s.' % user_id
-	
-app.run()
+
+if __name__=='__main__':
+	app.run()
