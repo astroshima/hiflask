@@ -6,4 +6,4 @@ app = Flask(__name__)       # napravi objekat tipa Flask i dodeli ga promenljivo
 def hello() -> str:         # definiši funkciju hello(), funkcija vraća string.
     return 'Hello world from Flask!'
 	
-app.run()                   # pokreni veb server (tj. veb aplikaciju)
+app.run()                   # pokreni veb server i veb aplikaciju
