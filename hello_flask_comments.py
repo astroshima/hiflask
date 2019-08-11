@@ -6,8 +6,8 @@ app = Flask(__name__)       # napravi objekat tipa Flask i dodeli ga promenljivo
 def hello() -> str:         # definiši funkciju hello(), funkcija vraća string.
     return 'Hello world from Flask!'
 
-print('Naziv aktivnog modula je:', __name__)    # ispisuje: Naziv aktivnog modula je __main__ ; jer startujemo program komandom: $ python3 hello_flask.py
-	
+print('Naziv aktivnog modula je:', __name__)    # ispisuje: Naziv aktivnog modula je __main__ ako startujemo program komandom: $ python3 hello_flask.py
+                                                # ispisuje: Naziv aktivnog modula je hello_flask ako startujemo program komandom: $ python3 >>> import hello_flask
 app.run()                   # pokreni veb server i veb aplikaciju
 
 """
