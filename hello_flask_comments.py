@@ -1,6 +1,6 @@
 from flask import Flask     # iz modula flask uvezi klasu Flask
 
-app = Flask(__name__)       # napravi objekat tipa Flask i dodeli ga promenljivoj app
+app = Flask(__name__)       # napravi objekat tipa Flask i dodeli ga promenljivoj app; Flask konstruktor zahteva da mu se prosledi promenljiva __name__
                             # __name__ : promenljiva koja sadrži naziv aktivnog modula (tj. tekućeg imenskog prostora)
 @app.route('/')             # dekorator funkcije; kada Flaskov veb server dobije zahtev sa URL putanjom '/', pozovi funkciju hello() 
 def hello() -> str:         # definiši funkciju hello(), funkcija vraća string.
