@@ -6,7 +6,7 @@ app=Flask(__name__)
 def hello():
     return 'Hello world from Flask!'
 
-print('Naziv aktivnog modula je:', __name__)
+print('Naziv aktivnog modula je:', __name__)    # wsgi
 
 """
 Ova veb aplikacija se (u Linuxu) pokreće iz komandne linije pomoću:
