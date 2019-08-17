@@ -3,6 +3,8 @@ Hello World Flask
 
 Requirements: flask (python3-flask)
 
+Svaki python fajl je posebna i nezavisna web aplikacija (tj. program) koja se posebno startuje.
+
 To start Flask veb application, run command in terminal:
 $ python3 hello_flask.py
 or
